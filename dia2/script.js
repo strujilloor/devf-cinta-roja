@@ -57,9 +57,9 @@ console.log(operacion(mult, 5, 5))
 // se Cumplió la promesa (celular)
 // No se cumple y la razón
 
-const birthday = (diner, amor, reconres) => { // entonces birthday es una promesa? o retorna una promesa? 
+const birthday = (dinero, amor, rencores) => { // entonces birthday es una promesa? o retorna una promesa? 
     return new Promise((resolve, reject) => { // la custion es retornar una promesa
-        if (dinero && amor && !recores) {
+        if (dinero && amor && !rencores) {
             resolve('celular')
         } else {
             reject('no celuar')
