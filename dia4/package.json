@@ -1,0 +1,21 @@
+{
+  "name": "dia4",
+  "version": "1.0.0",
+  "description": "Mi primer nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "stiven",
+  "license": "ISC",
+  "dependencies": {
+    "pokeapi": "0.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
