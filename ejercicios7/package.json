@@ -1,0 +1,19 @@
+{
+  "name": "ejercicios7",
+  "version": "1.0.0",
+  "description": "Ejercicios Día 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "endpoints",
+    "express"
+  ],
+  "author": "Stiven",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
