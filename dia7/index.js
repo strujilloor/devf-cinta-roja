@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const MONGO = require('./const');
+const MONGO = require('./config/const');
 const router = require('./routes/routes');
-const PORT = 3000;
+const PORT = process.env.PORT || 4200;
 
 const app = express();
 app.use(bodyParser.json());
