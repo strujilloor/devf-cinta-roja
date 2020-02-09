@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
@@ -7,9 +7,11 @@ export const Navbar = () => {
             <nav className="nav-wrapper indigo">
                 <div className="container">
                     <div className="nav-wrapper">
-                        <a href="#!" className="brand-logo">Netflix</a>
+                        <Link to="/" className="brand-logo">Netflix</Link>
                         <ul className="right hide-on-med-and-down">
-                            <li><a class="waves-effect waves-light btn">Agregar Película</a></li>
+                            <li>
+                                <Link to="/addMovie" class="waves-effect waves-light btn">Agregar Película</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
